@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculadora de IMC</title>
+        <meta charset="UTF-8">
+        <meta name="title" content="Calculadora de IMC" >
+        <meta name="description" content="Calculadora de Indice de masa corporal">
+        <link rel="stylesheet" type="text/css" href="imc.css">
+    </head>
+
+    <body>
+        <div id="contenedor">
+            <h1>Calculadora de IMC</h1>
+            <p>Altura en cm: <input type="text" id="altura"></p>
+            <p>Peso en Kg: <input type="text" id="peso"></p>
+            <p><input type="submit" id="boton" value="CALCULAR"></p>
+            <div id="resultado">hola</div>
+            <div id="nota"> IMC &lt; 18.6: bajo peso <br/>
+                 18,6 &gt; IMC &lt; 24,9: peso normal <br/>
+                 IMC &gt; 24,9: alto peso.
+            </div>
+        </div>
+
+        <script src="imc.js"></script>
+
+    </body>
+</html>

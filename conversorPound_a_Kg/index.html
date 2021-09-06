@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Conversor de Kilogramos a Libras</title>
+        <meta name="title" content="Conversor de Kilogramos a Libras">
+        <meta name="description" content="Conversor de Kilogramos a Libras">
+        <link type="text/css" rel="stylesheet"  href="conversor.css">
+
+    </head>
+
+    <body>
+        <div id="contenedor">
+            <h1>Conversor de Kilogramos a Libras</h1>
+            <p>Ingrese el peso en Kilogramos:</p>
+            <p>
+                <label>Kilogramos</label>
+                <input id="entradakilos" type="number" placeholder="kilogs" oninput="conversor(this.value)" onchange="conversor(this.value)">
+            </p>
+
+            <p>Tu peso en Libras es: <span id="salidalibras"></span></p>
+
+        </div>
+        <script src="conversor.js"></script>
+    </body>
+
+</html>

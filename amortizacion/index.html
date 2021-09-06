@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="amort.css">
+        <title>Amortizacion</title>
+
+    </head>
+<body>
+
+    <div id="amortcal">
+        <h1>Calculadora de Amortizacion</h1>
+        <p>Monto: $<input id="monto" type="number" min="1" max="5000000" onchange="calprestamo()"></p>
+        <p>Tasa de interes: %<input id="tasa" type="number" min="0" max="100" value="10" step="0.1" onchange="calprestamo()"></p>
+        <p>Meses a pagar: <input id="meses" type="number" min="1" max="300" value="1" step="1" onchange="calprestamo()"></p>
+
+        <h2 id="pago"></h2>
+
+    </div>
+
+    <script src="amort.js"></script>
+
+</body>
+
+</html>

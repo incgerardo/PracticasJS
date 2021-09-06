@@ -1,0 +1,40 @@
+body{
+    margin: 3em;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#cambiador{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#cambiador li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+#botongris{
+    background-color: grey;
+}
+
+#botonblanco{
+    background-color: white;
+}
+
+#botonazul{
+    background-color: blue;
+
+}
+
+#botonamarillo{
+    background-color: yellow;
+}
